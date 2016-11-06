@@ -939,14 +939,27 @@ body.nav-opened .nav {
     background: none;
 }
 
+/* I have modified this for aesthetics - JP*/
 /* The details of your blog. Defined in ghost/settings/ */
+@font-face {
+  font-family: "Ailerons";
+  font-weight: normal;
+  font-style: normal;
+  src: url("fonts/Ailerons-Regular.eot");
+  src: url("fonts/Ailerons-Regular.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Ailerons-Regular.woff") format("woff"),
+    url("fonts/Ailerons-Regular.ttf") format("truetype"),
+    url("fonts/Ailerons-Regular.svg#ghosticons") format("svg");
+}
+
 .page-title {
     margin: 10px 0 10px 0;
     font-size: 5rem;
     letter-spacing: -1px;
     font-weight: 700;
-    font-family: "Open Sans", sans-serif;
-    color: #fff;
+    /* font-family: "Open Sans", sans-serif; */
+    color: black;
+    font-family: 'Ailerons-Regular', Arial, sans-serif;
 }
 
 .page-description {

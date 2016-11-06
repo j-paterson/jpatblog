@@ -26,6 +26,12 @@ body {
   margin: 0;
 }
 
+/* I am adding this for aesthetics - JP*/
+
+.page-title{
+  font-family: 'Ailerons-Regular', Arial, sans-serif;
+}
+
 /* HTML5 display definitions
    ========================================================================== */
 
@@ -914,6 +920,17 @@ img {
     url("fonts/ghosticons.woff") format("woff"),
     url("fonts/ghosticons.ttf") format("truetype"),
     url("fonts/ghosticons.svg#ghosticons") format("svg");
+}
+
+@font-face {
+  font-family: "Ailerons";
+  font-weight: normal;
+  font-style: normal;
+  src: url("fonts/Ailerons-Regular.eot");
+  src: url("fonts/Ailerons-Regular.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Ailerons-Regular.woff") format("woff"),
+    url("fonts/Ailerons-Regular.ttf") format("truetype"),
+    url("fonts/Ailerons-Regular.svg#ghosticons") format("svg");
 }
 
 [data-icon]:before {

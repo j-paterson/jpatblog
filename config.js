@@ -150,3 +150,4 @@ config = {
 };
 
 module.exports = config;
+require('./helper')();

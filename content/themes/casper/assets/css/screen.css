@@ -953,7 +953,7 @@ body.nav-opened .nav {
 }
 
 .page-title {
-    margin: 10px 0 10px 0;
+    margin: 5% 0 10px 0;
     font-size: 5em;
     letter-spacing: -1px;
     font-weight: 700;
@@ -963,8 +963,9 @@ body.nav-opened .nav {
 }
 
 .page-description {
-    margin: 0;
-    font-size: 2rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 1.5rem;
     line-height: 1.5em;
     font-weight: 400;
     font-family: "Merriweather", serif;

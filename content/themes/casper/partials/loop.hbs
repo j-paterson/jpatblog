@@ -4,7 +4,7 @@
 </div>
 
 {{!-- This is the post loop - each post will be output using this markup --}}
-{{#get "posts" featured="true" as |featured|}}
+{{#get "posts" tag="featured" as |featured|}}
     {{#foreach featured}}
     <article class="{{post_class}}">
         <header class="post-header">

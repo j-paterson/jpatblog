@@ -31,7 +31,7 @@ config = {
     development: {
         // The url to use when providing links to the site, E.g. in RSS and email.
         // Change this to your Ghost blog's published URL.
-        url: 'http://blog.jpaterson.design',
+        url: 'http://blog.jessepaterson.com',
 
         // Example refferer policy
         // Visit https://www.w3.org/TR/referrer-policy/ for instructions
